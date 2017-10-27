@@ -48,11 +48,17 @@ for iter = 1 : len
     M(1,iter) = sum(sum(grid))/(numel(grid));
     Ts(1,iter) = KT;
 end
+
+%Plot Generation
 a=unique(M);
 a=transpose(a);
 out = [a,histc(M(:),a)];
-y=(out(:,2)/len);
+y=100*(out(:,2)/len);
 plot(out(:,1),y,'o-')
+set(gcf,'Visible', 'off'); 
+saveas(gcf,'Data\pdf.jpg');
+
+%EXport Data
 Text=[y.';out(:,1).'];
 fid = fopen('Data\Probability_Distribution.dat','a+');
 fprintf(fid,'%s %s\r\n\r\n','Date/Time : ',c);
@@ -60,10 +66,7 @@ fprintf(fid,'%s %f\r\n','L=',n_grid);
 fprintf(fid,'%s %f\r\n','B=',B);
 fprintf(fid,'%s %f\r\n','No.of steps for equilibrium=',2^8*(n_grid^2));
 fprintf(fid,'%s %f\r\n','J=',J);
-%fprintf(fid,'%s %f\r\n','T(max)=',Tmax);
-%fprintf(fid,'%s %f\r\n','T(min)=',Tmin);
 fprintf(fid,'%s %f\r\n','T=',KT);
-%fprintf(fid,'%s %f\r\n','No.of Production run = ',P);
 fprintf(fid,'%s %f\r\n','No.of steps in production run = ',len);
 fprintf(fid,'%s\r\n','Data:');
 fprintf(fid,'%6s %12s\r\n','ln(p)','<m>');

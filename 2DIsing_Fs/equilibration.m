@@ -2,17 +2,14 @@ function [grid] = equilibration(n_grid, KT, J, B)
 
 %%%%%%%The Metropolis algorithm%%%%%%%%%%%
 
-%grid = (rand(n_grid) > 0.5)*2 - 1;  %Generating Random state
-%grid =ones(n_grid);
-grid = sign(0.5 - rand(n_grid,n_grid));
-numIters = 2^8 * numel(grid);       %Number of steps for equilibration
+grid = sign(0.5 - rand(n_grid,n_grid));			%Generating Random state
 
-%numIters=70000;
+numIters = 2^8 * numel(grid);       			%Number of steps for equilibration
+
 for iter = 1 : numIters
     % Pick a random spin
-
-row = randi(n_grid,1);
-col = randi(n_grid,1);
+	row = randi(n_grid,1);
+	col = randi(n_grid,1);
     
     % Find its nearest neighbors
     above = mod(row - 1 - 1, size(grid,1)) + 1;

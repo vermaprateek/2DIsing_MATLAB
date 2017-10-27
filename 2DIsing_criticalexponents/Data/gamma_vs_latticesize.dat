@@ -1,0 +1,69 @@
+Date/Time :  27-Oct-2017 01:37:41
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  1000000.000000
+Data:
+Lattice Size        gamma
+
+    50        2.017576e-01
+   100        1.713654e-01
+   150        1.573787e-01
+   200        1.488728e-01
+   250        1.428051e-01
+   300        1.382465e-01
+
+
+
+
+Date/Time :  27-Oct-2017 01:45:01
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  1000000.000000
+Data:
+Lattice Size        gamma
+
+    50        2.016550e-01
+   100        1.713777e-01
+   150        1.575101e-01
+   200        1.488245e-01
+   250        1.428124e-01
+   300        1.382648e-01
+
+
+
+
+Date/Time :  27-Oct-2017 01:45:47
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  1000000.000000
+Data:
+Lattice Size        gamma
+
+    50        2.026241e-01
+   100        1.714046e-01
+   150        1.573745e-01
+   200        1.488552e-01
+   250        1.428000e-01
+   300        1.382473e-01
+
+
+
+

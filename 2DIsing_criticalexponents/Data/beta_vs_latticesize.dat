@@ -64,3 +64,95 @@ Lattice Size         beta
 
 
 
+Date/Time :  27-Oct-2017 01:30:39
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  100.000000
+Data:
+Lattice Size         beta
+
+    50        9.757547e-01
+   100        1.090006e+00
+   150        1.090172e+00
+   200        1.060641e+00
+   250        9.485139e-01
+   300        9.237614e-01
+
+
+
+
+Date/Time :  27-Oct-2017 01:32:21
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  100.000000
+Data:
+Lattice Size         beta
+
+    50        1.069051e+00
+   100        1.023566e+00
+   150        1.002779e+00
+   200        1.046874e+00
+   250        1.162808e+00
+   300        1.238860e+00
+
+
+
+
+Date/Time :  27-Oct-2017 01:32:38
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  100.000000
+Data:
+Lattice Size         beta
+
+    50        8.741926e-01
+   100        9.859119e-01
+   150        1.120104e+00
+   200        9.924063e-01
+   250        1.024509e+00
+   300        1.163099e+00
+
+
+
+
+Date/Time :  27-Oct-2017 01:33:13
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  10000.000000
+Data:
+Lattice Size         beta
+
+    50        2.186142e+00
+   100        2.384477e+00
+   150        2.202675e+00
+   200        2.050116e+00
+   250        1.806461e+00
+   300        1.976978e+00
+
+
+
+

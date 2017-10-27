@@ -60,6 +60,50 @@ Lattice Size        alpha
    700       -3.925848e-09
    750       -5.640346e-09
    800       -1.472841e-09
+   
+   
+Date/Time :  27-Oct-2017 01:47:18
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  1000000.000000
+Data:
+Lattice Size        alpha
+
+    50       -4.336129e-02
+   100       -3.683722e-02
+   150       -3.381920e-02
+   200       -3.191051e-02
+   250       -3.067018e-02
+   300       -2.971915e-02
+
+
+
+
+Date/Time :  27-Oct-2017 13:01:33
+
+B= 0.000000
+J= 1.000000
+T= 2.200000
+Minimum lattice size for critical exponents =  50.000000
+Maximum lattice size for critical exponents =  300.000000
+Increment in LatticeSize =  50.000000
+No.of Production run =  4.000000
+No.of steps in production run =  100.000000
+Data:
+Lattice Size        alpha
+
+    50       -4.283427e-02
+   100       -3.681474e-02
+   150       -3.391421e-02
+   200       -3.197048e-02
+   250       -3.076604e-02
+   300       -2.978279e-02
 
 
 

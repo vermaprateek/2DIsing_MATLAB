@@ -1,4 +1,3 @@
-
 %%%%%%%%%%%%%%% probability density of states for 2D Ising %%%%%%%%%%%%%%%%%%%%
 
 function[rho_min,rho_max]=pdf_2dising(n_grid,J,B,len,KT)
@@ -7,11 +6,8 @@ M=zeros(1,len);
 [grid] = equilibration(n_grid, KT, J, B);
 
 for iter = 1 : len
-%      if mod(iter,1000000)==0
-%     disp(iter);
-%      end
-    % Pick a random spin
 
+    % Pick a random spin
     row = randi(n_grid,1);
     col = randi(n_grid,1);
     
@@ -38,12 +34,13 @@ for iter = 1 : len
     M(1,iter) = sum(sum(grid))/(numel(grid));
     Ts(1,iter) = KT;
 end
+
 a=unique(M);
 a=transpose(a);
 out = [a,histc(M(:),a)];
 y=(out(:,2)/len);
-%plot(out(:,1),y,'o-');
-% rho_min=min(y);
+
+%min and max probability
 rho_min=y(ceil(end/2));
 rho_max=max(y);
-%end
+end
