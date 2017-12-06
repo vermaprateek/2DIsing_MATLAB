@@ -41,6 +41,7 @@ legend(legendInfo);
 hold off;
 
 %Exporting Data
+corr = transpose(corr);
 corr=reshape(corr,1,[]);
 v(numel(corr)) = 0;
 Text=[v;corr];
@@ -48,6 +49,7 @@ fid = fopen('Data/correlation.dat','a+');
 fprintf(fid,'%s %s\r\n\r\n','Date/Time : ',c);
 fprintf(fid,'%s %f\r\n','B=',B);
 fprintf(fid,'%s %f\r\n','J=',J);
+fprintf(fid,'%s %f\r\n','Lattice Size=',n_grid);
 fprintf(fid,'%s %f\r\n','Minimum temperature = ',Tmin);
 fprintf(fid,'%s %f\r\n','Maximum temperature = ',Tmax);
 fprintf(fid,'%s %f\r\n','Increment in temperature = ',Tinc);
