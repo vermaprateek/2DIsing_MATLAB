@@ -11,3 +11,6 @@ This is an ongoing project, there might be some issues/bugs in the files.
 -Folder `2DIsing_phasetransition` contains code files for generating the plots of Average magnetisation, Average Energy, susceptibility and heat capacity vs Temperature.
 
 -Folder `2DIsing_probability_distribution` contains code files for estimating distribution of 2D ising states by varying order parameter and using simple counting method.
+
+-Folder `2DIsing_correlations` contains code files for estimating correlation function with respect to distance 'r' from the middle most spin (pseudo middle spin in even lattice dimension).
+
