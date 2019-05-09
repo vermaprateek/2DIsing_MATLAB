@@ -1,6 +1,6 @@
 This project is for the simulation of a 2D ising model (by Metropolis monte carlo algorithm) to study its properties.
 
-This is an ongoing project, there might be some issues/bugs in the files.
+
 # 2D Ising Model Simulations
 *All the simulation codes are using single spin flip dynamics only.* 
 
